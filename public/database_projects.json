@@ -1,0 +1,98 @@
+{
+  "projects": [
+    {
+      "logo":"images/logos/gta-radios.png",
+      "name":"GTA Radios",
+      "about":"Aplicativo de rádios com as estações da franquia de games Grand Theft Auto.",
+      "screenshots":[
+        "images/screenshots/gta-radios-desktop.gif",
+        "images/screenshots/gta-radios-mobile.jpg"
+      ],
+      "objective":"Projeto desenvolvido com o intuito de praticar o uso da biblioteca React na implementação de diversos players de audio personalizados, consumindo urls de transmissão de um servidor de rádios.",
+      "features":[
+        "Rádios segmentadas de diferentes títulos da franquia.",
+        "O botão play/pause da estação em reprodução assume a forma de uma roda de carro giratória (referência estética ao jogo).",
+        "Uma estação é pausada automaticamente quando outra é reproduzida.",
+        "Responsivo."
+      ],
+      "tools":[
+        "React",
+        "Typescript",
+        "URL's de transmissão do servidor de rádios Zeno FM"
+      ],
+      "aditional_info":"Algumas estações podem ficar off-line temporariamente. É uma instabilidade momentânea do servidor de rádios utilizado. Em uma futura amplicação do projeto serão consideradas alternativas ao serviço de streaming atual. Mas, até o momento, ele atendeu o objetivo do projeto, que foi praticar o uso das tecnologias supracitadas."
+    },
+    {
+      "logo":"images/logos/top-series.png",
+      "name":"Top Séries",
+      "about":"Catálogo com as últimas séries de TV.",
+      "screenshots":[
+        "images/screenshots/top-series-desktop.gif",
+        "images/screenshots/top-series-mobile-1.jpg",
+        "images/screenshots/top-series-mobile-2.jpg",
+        "images/screenshots/top-series-mobile-13.jpg"
+      ],
+      "objective":"Projeto desenvolvito para praticar o consumode API utilizando React e Typescript.",
+      "features":[
+        "Lista as séries mais populares.",
+        "Lista as séries mais votadas.",
+        "Lista as séries que estão em lançamento.",
+        "Lista as séries com episódios em exibição hoje.",
+        "Permite busca de séries.",
+        "Responsivo."
+      ],
+      "tools":[
+        "React",
+        "Typescript",
+        "API do banco de séries e filmes TMDB"
+      ],
+      "aditional_info":""
+    },
+    {
+      "logo":"",
+      "name":"",
+      "about":"",
+      "screenshots":[
+        "",
+        "",
+        ""
+      ],
+      "objective":"",
+      "features":"",
+      "tools":"",
+      "aditional_info":""
+    },
+    {
+      "logo":"",
+      "name":"",
+      "about":"",
+      "screenshots":[
+        "",
+        "",
+        ""
+      ],
+      "objective":"",
+      "features":"",
+      "tools":"",
+      "aditional_info":""
+    },
+    {
+      "logo":"",
+      "name":"",
+      "about":"",
+      "screenshots":[
+        "",
+        "",
+        ""
+      ],
+      "objective":"",
+      "features":"",
+      "tools":"",
+      "aditional_info":""
+    }
+
+
+
+
+  ]
+}
