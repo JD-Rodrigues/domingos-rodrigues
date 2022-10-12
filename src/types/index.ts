@@ -1,5 +1,6 @@
 
 export type TProject = {
+  id:string;
   logo:string;
   name:string;
   about:string;
@@ -11,11 +12,15 @@ export type TProject = {
 }
 
 export interface IHomeProps {
-  projects: TProject[]
+  data: TProject[]
 }
 
 export interface IProjectProps {
   project: TProject
+}
+
+export interface IGetStaticProps {
+  params: {id:string}
 }
 
 

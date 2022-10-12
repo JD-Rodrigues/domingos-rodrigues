@@ -1,7 +1,7 @@
-{
-  "projects": [
-    {
-      "logo":"images/logos/gta-radios.png",
+
+const projects =  [
+    { "id":"gta-radios",
+      "logo":"https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/logos/gta-radios.png",
       "name":"GTA Radios",
       "about":"Aplicativo de rádios com as estações da franquia de games Grand Theft Auto.",
       "screenshots":[
@@ -22,8 +22,8 @@
       ],
       "aditional_info":"Algumas estações podem ficar off-line temporariamente. É uma instabilidade momentânea do servidor de rádios utilizado. Em uma futura amplicação do projeto serão consideradas alternativas ao serviço de streaming atual. Mas, até o momento, ele atendeu o objetivo do projeto, que foi praticar o uso das tecnologias supracitadas."
     },
-    {
-      "logo":"images/logos/top-series.png",
+    { "id":"top-series",
+      "logo":"https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/logos/top-series.png",
       "name":"Top Séries",
       "about":"Catálogo com as últimas séries de TV.",
       "screenshots":[
@@ -49,6 +49,7 @@
       "aditional_info":""
     },
     {
+      "id":"easy-comanda",
       "logo":"",
       "name":"Easy Comanda",
       "about":"",
@@ -63,6 +64,7 @@
       "aditional_info":""
     },
     {
+      "id":"controle-financeiro",
       "logo":"",
       "name":"Controle Financeiro",
       "about":"",
@@ -77,6 +79,7 @@
       "aditional_info":""
     },
     {
+      "id":"paytab",
       "logo":"",
       "name":"Paytab",
       "about":"",
@@ -90,9 +93,9 @@
       "tools":"",
       "aditional_info":""
     }
-
-
-
-
   ]
-}
+
+
+
+
+export default projects

@@ -1,30 +1,29 @@
 import Link from 'next/link'
 import { IHomeProps, TProject } from '../types'
 import {server} from '../../config/index.js'
+import database from '../../public/database_projects'
 
 
-export const getStaticProps = async () => {
+
+export const getStaticProps = () => { 
   
-  
-  const data = await fetch(`${server}/database_projects.json`)
-  const dataJson = await data.json()
-  const projects = await dataJson.projects
+  const data = database
   return {
     props: {
-      projects, 
+      data,  
     }
   }
 }
 
-const Home = ({projects}:IHomeProps) => {
+const Home =  ({data}:IHomeProps) => {
 
   return (
     <div>
       <h1>Portfólio</h1>
       <ul>
-      {projects && projects.map((project:TProject)=>{
+      { data && data.map((project:TProject)=>{
         return(
-          <li key={project.name}><Link href="/projeto"><h3>{project.name}</h3></Link></li>
+          <li key={project.name}><Link href={`/projects/${project.id}`}><h3>{project.name}</h3></Link></li> 
         )
       })}
       </ul>
