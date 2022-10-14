@@ -20,7 +20,7 @@
 .cover__title {
   position: absolute;
   top: 0;
-  background-image: repeating-linear-gradient(18deg,  rgba(0,0,0,0.8), transparent,rgba(0,0,0,.8) 0.5px);
+  background-image: repeating-linear-gradient(18deg,  rgba(0,0,0,.8), transparent,rgba(0,0,0,.8) 0.5px);
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,15 +45,12 @@
 
 @media (max-width:768px) {
   .cover {
-    height:70vh;
-  }
-  .cover__image {
-    background-image: url("../../public/images/backgrounds/workspace-500.png");
+    height:50vh;
   }
 
-  .cover__title {
+  /* .cover__title {
     font-size: 25px;
-  }
+  } */
 
   .header__arrow__down {
     display: none;
@@ -61,15 +58,12 @@
 }
 
 @media (max-width:500px) {
-  .cover {
-    height:50vh;
-  }
   .cover__title {
     font-size: 20px;
   }
 
-  .cover__image {
+  /* .cover__image {
     background-image: url("../../public/images/backgrounds/workspace-500.png");
     background-size: cover;
-  } 
+  }  */
 }
