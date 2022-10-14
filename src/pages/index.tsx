@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { IHomeProps, TProject } from '../types'
-import {server} from '../../config/index.js'
 import database from '../../public/database_projects'
+import styles from "./Home.module.css"
 
 
 
@@ -18,7 +18,15 @@ export const getStaticProps = () => {
 const Home =  ({data}:IHomeProps) => {
 
   return (
-    <div>
+    <div className={styles.home}>
+      <header>
+        <div className={`${styles.cover} ${styles.cover__image}`}>
+        </div>
+        <div className={`${styles.cover} ${styles.cover__title}`}>
+          <h1><span className={styles.first__name}>domingos</span>rodrigues</h1>
+          <div className='header__arrow__down'></div>
+        </div>
+      </header>
       <h1>Portfólio</h1>
       <ul>
       { data && data.map((project:TProject)=>{
