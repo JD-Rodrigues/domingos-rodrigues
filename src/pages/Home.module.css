@@ -48,11 +48,15 @@
     height:50vh;
   }
   .cover__image {
-    background-image: url("../../public/images/backgrounds/workspace-768.jpg");
+    background-image: url("../../public/images/backgrounds/workspace-500.png");
   }
 
   .cover__title {
     font-size: 25px;
+  }
+
+  .header__arrow__down {
+    display: none;
   }
 }
 
@@ -62,11 +66,10 @@
   }
   .cover__title {
     font-size: 20px;
-    background-image: repeating-linear-gradient(15deg,  rgba(0,0,0,0.8), rgba(0,0,0,0.8), transparent,rgba(0,0,0,.8), transparent,rgba(0,0,0,.8) .5px);
   }
 
   .cover__image {
-    background-image: url("../../public/images/backgrounds/workspace-500.jpg");
+    background-image: url("../../public/images/backgrounds/workspace-500.png");
     background-size: cover;
   } 
 }
