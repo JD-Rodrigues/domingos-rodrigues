@@ -3,6 +3,7 @@ import { IHomeProps, TProject } from '../types'
 import database from '../../public/database_projects'
 import styles from "./Home.module.css"
 import arrowDown from "../../public/images/logos/arrow-down.png"
+import cover from "../../public/images/backgrounds/workspace.jpg"
 import Image from 'next/image'
 
 

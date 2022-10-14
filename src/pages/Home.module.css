@@ -7,6 +7,8 @@
   align-items: center;
 }
 
+
+
 .cover__image {
   background-image: url("../../public/images/backgrounds/workspace.jpg");
   background-position: center;
@@ -42,14 +44,29 @@
 }
 
 @media (max-width:768px) {
+  .cover {
+    height:50vh;
+  }
+  .cover__image {
+    background-image: url("../../public/images/backgrounds/workspace-768.jpg");
+  }
+
   .cover__title {
     font-size: 25px;
   }
 }
 
 @media (max-width:500px) {
+  .cover {
+    height:50vh;
+  }
   .cover__title {
     font-size: 20px;
-    background-image: none;
+    background-image: repeating-linear-gradient(15deg,  rgba(0,0,0,0.8), rgba(0,0,0,0.8), transparent,rgba(0,0,0,.8), transparent,rgba(0,0,0,.8) .5px);
   }
+
+  .cover__image {
+    background-image: url("../../public/images/backgrounds/workspace-500.jpg");
+    background-size: cover;
+  } 
 }
