@@ -60,10 +60,6 @@
 @media (max-width:500px) {
   .cover__title {
     font-size: 20px;
+    background-image: none;
   }
-
-  /* .cover__image {
-    background-image: url("../../public/images/backgrounds/workspace-500.png");
-    background-size: cover;
-  }  */
 }
