@@ -45,7 +45,7 @@
 
 @media (max-width:768px) {
   .cover {
-    height:50vh;
+    height:70vh;
   }
   .cover__image {
     background-image: url("../../public/images/backgrounds/workspace-500.png");
