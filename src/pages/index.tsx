@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { IHomeProps, TProject } from '../types'
 import database from '../../public/database_projects'
 import styles from "./Home.module.css"
+import arrowDown from "../../public/images/logos/arrow-down.png"
+import Image from 'next/image'
 
 
 
@@ -24,7 +26,7 @@ const Home =  ({data}:IHomeProps) => {
         </div>
         <div className={`${styles.cover} ${styles.cover__title}`}>
           <h1><span className={styles.first__name}>domingos</span>rodrigues</h1>
-          <div className='header__arrow__down'></div>
+          <div className={styles.header__arrow__down}><Image alt='Clique aqui para ser direcionado para a próxima seção' src={arrowDown} /></div>
         </div>
       </header>
       <h1>Portfólio</h1>
