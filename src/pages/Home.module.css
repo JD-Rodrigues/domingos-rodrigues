@@ -33,7 +33,7 @@
 
 @media (max-width:768px) {
   .cover {
-    height: 50vh;
+    height: 30vh;
   }
   .cover__title {
     font-size: 25px;
@@ -43,7 +43,6 @@
 @media (max-width:500px) {
   .cover__title {
     font-size: 20px;
-    font-weight: bold;
     background-image: none;
   }
 }
