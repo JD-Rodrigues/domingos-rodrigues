@@ -97,5 +97,6 @@
 @media (max-width:500px) {
   .cover__title {
     font-size: 20px;
+    background-image: none;
   }
 }
