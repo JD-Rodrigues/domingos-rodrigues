@@ -56,11 +56,11 @@ const Home =  ({data}:IHomeProps) => {
               </p>
               <br />
               <p>
-              Trabalho com construção de interfaces e aplicações para a web no ecossistema Javascript, prezando por um código limpo, performático e otimizado para os motores de busca.
+              Trabalho com construção de interfaces e aplicações para a web utilizando tecnologias do ecossistema Javascript, prezando por um código limpo, performático e otimizado para os motores de busca.
               </p>
               <br />
               <p>
-              Possuo habilidades de comunicação e transmissão de informações, adquiridas em minha carreira anterior, como professor. Isso me possibilita contribuir com os demais profissionais da equipe, reduzindo o tempo gasto para compreender detalhes sobre o processo de desenvolvimento.
+              Possuo habilidades de comunicação, aprendizado rápido e transmissão de informações, adquiridas em minha carreira anterior, como professor. Isso me possibilita contribuir com os demais profissionais, ajudando a compreender processos e o uso de tecnologias, reduzindo o tempo gasto com soluções que requerem técnicas ou abordagens utilizadas com pouca frequência pela equipe.
               </p>
           </div>
           <div className={styles.profile__pic__wrapper} >
@@ -68,20 +68,39 @@ const Home =  ({data}:IHomeProps) => {
               <Image src={profilePic} />
             </div>
           </div>
-          <div className={`${styles.wave} ${styles.wave__light__ascending } ${styles.background__section}`}>
-          </div>
         </section>
         <section className={`${styles.container} ${styles.section__techs}`}>
+        <div className={`${styles.wave} ${styles.wave__main__ascending } ${styles.background__section}`}>
+          </div>
           <div className={styles.techs__text}>
             <h2 className={styles.techs__title}>TECNOLOGIAS</h2>
             <p>
-              Tenho trabalhado com estas tecnologias. Além disso, estou sempre atento às ferramentas que o mercado está utilizando e incorporando-as ao meu trabalho. Aprendizado contínuo e evolução constante.
-            </p>
+              Tenho trabalhado com estas tecnologias. Além disso, estou sempre atento às ferramentas que o mercado está utilizando e incorporando-as ao meu trabalho.</p> 
+            <p>Aprendizado contínuo e evolução constante.</p>
             <ul className={styles.techs__list}>
-
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Typescript</li>
+              <li>React</li>
+              <li>Next Js</li>
+              <li>Tailwind CSS</li>
+              <li>Jest</li>
+              <li>Git/Github</li>              
             </ul>
           </div>
         </section>
+        <footer >
+          <address className={`${styles.container} ${styles.section__networks}`}>
+            <div className={styles.networks}>
+              <h2>REDES</h2>
+              <div>
+                
+              </div>
+            </div>
+            <div className={styles.contact}></div>
+          </address>
+        </footer>
       </main>
       
     </div>
