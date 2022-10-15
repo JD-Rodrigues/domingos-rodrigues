@@ -28,11 +28,14 @@ const Home =  ({data}:IHomeProps) => {
 
   return (
     <div className={styles.home}>
-      <header>
+      <header id='top'>
         <div className={`${styles.cover} ${styles.cover__image} ${styles.container} ${styles.background__section}`}>
         </div>
         <div className={`${styles.cover} ${styles.cover__title} ${styles.container}`}>
-          <h1><span className={styles.first__name}>domingos</span>rodrigues</h1>
+          <div>
+            <h1><span className={styles.first__name}>domingos</span>rodrigues</h1>
+            <p className={styles.career}>DESENVOLVEDOR<span className={styles.speciality}>FRONT-END</span></p>
+          </div>          
           <a href={"#portfolio__section"}><div className={styles.header__arrow__down}><Image alt='Clique aqui para ser direcionado para a próxima seção' src={arrowDown} /></div></a>
         </div>
       </header>
@@ -115,6 +118,7 @@ const Home =  ({data}:IHomeProps) => {
             </div>
             <p>domingosrodrigues.dev@gmail.com</p>
           </address>
+          <a href='#top' className="to__top"></a>
         </footer>
       </main>
       

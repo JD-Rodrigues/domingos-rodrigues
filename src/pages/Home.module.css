@@ -43,6 +43,21 @@
   color: var(--main);
 }
 
+.career {  
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px var(--main) solid;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;   
+  column-gap: 10px;
+}
+
+.speciality {
+  font-weight: bold;
+  color: var(--main);
+}
+
 .header__arrow__down {
   position: absolute;
   bottom: 40px;
@@ -204,8 +219,6 @@
   margin-bottom: 30px;
 }
 
-
-
 .footer__logo {
   width: 15%;
   cursor: pointer;
@@ -220,8 +233,6 @@
   text-align: right;
 }
 
-
- 
 
 @media (max-width:768px) {
   .cover {
