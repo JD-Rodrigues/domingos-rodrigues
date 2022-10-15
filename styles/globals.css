@@ -415,6 +415,9 @@ body {
   --contrast: #E0C148;
 
   font-family: ModernSans;
+  font-size: 20px;
+  font-weight: bold;
   color: var(--light);
+  background-color: var(--light);
 }
 
