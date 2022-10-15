@@ -2,9 +2,15 @@ import Link from 'next/link'
 import { IHomeProps, TProject } from '../types'
 import database from '../../public/database_projects'
 import styles from "./Home.module.css"
-import arrowDown from "../../public/images/logos/arrow-down.png"
-import profilePic from "../../public/images/profile-pic.png"
 import Image from 'next/image'
+import arrowDown from "../../public/images/logos/arrow-down.png"
+import githubLogo from "../../public/images/logos/github-logo-thin.svg"
+import linkedinLogo from "../../public/images/logos/linkedin-logo-thin.svg"
+import instagramLogo from "../../public/images/logos/instagram-logo-thin.svg"
+import whatsappLogo from "../../public/images/logos/whatsapp-logo-thin.svg"
+import emailLogo from "../../public/images/logos/email-logo-thin.svg"
+import profilePic from "../../public/images/profile-pic.png"
+
 
 
 
@@ -27,11 +33,11 @@ const Home =  ({data}:IHomeProps) => {
         </div>
         <div className={`${styles.cover} ${styles.cover__title} ${styles.container}`}>
           <h1><span className={styles.first__name}>domingos</span>rodrigues</h1>
-          <div className={styles.header__arrow__down}><Image alt='Clique aqui para ser direcionado para a próxima seção' src={arrowDown} /></div>
+          <a href={"#portfolio__section"}><div className={styles.header__arrow__down}><Image alt='Clique aqui para ser direcionado para a próxima seção' src={arrowDown} /></div></a>
         </div>
       </header>
       <main>
-        <section className={`${styles.section__portfolio__bg__img} ${styles.container} ${styles.background__section}`}>
+        <section className={`${styles.section__portfolio__bg__img} ${styles.container} ${styles.background__section}`} id="portfolio__section">
           
           <div className={`${styles.section__portfolio__bg__gradient} ${styles.container} ${styles.background__section}`}>
             <nav>
@@ -50,7 +56,7 @@ const Home =  ({data}:IHomeProps) => {
         </section>
         <section className={`${styles.container} ${styles.section__about__me}`}>
           <div className={styles.about__me__text}>
-              <h2 className={styles.about__me__title}>SOBRE MIM</h2>
+              <h2 className={styles.title}>SOBRE MIM</h2>
               <p>
               Eu sou Domingos Rodrigues, programador front-end, baiano, viciado em desenvolver soluções. Sou movido e orientado por desafios.
               </p>
@@ -73,7 +79,7 @@ const Home =  ({data}:IHomeProps) => {
         <div className={`${styles.wave} ${styles.wave__main__ascending } ${styles.background__section}`}>
           </div>
           <div className={styles.techs__text}>
-            <h2 className={styles.techs__title}>TECNOLOGIAS</h2>
+            <h2 className={styles.title}>TECNOLOGIAS</h2>
             <p>
               Tenho trabalhado com estas tecnologias. Além disso, estou sempre atento às ferramentas que o mercado está utilizando e incorporando-as ao meu trabalho.</p> 
             <p>Aprendizado contínuo e evolução constante.</p>
@@ -92,13 +98,22 @@ const Home =  ({data}:IHomeProps) => {
         </section>
         <footer >
           <address className={`${styles.container} ${styles.section__networks}`}>
-            <div className={styles.networks}>
-              <h2>REDES</h2>
-              <div>
-                
+            <h2 className={styles.title}>REDES E CONTATO</h2>
+            <div className={styles.footer__logos__wrapper}>
+              <div className={styles.footer__logo}>
+                <Image src={githubLogo} />
               </div>
+              <div className={styles.footer__logo}>
+                <Image src={linkedinLogo} />
+              </div>
+              <div className={styles.footer__logo}>
+                <Image src={instagramLogo} />
+              </div>
+              <div className={styles.footer__logo}>
+                <Image src={whatsappLogo} />
+              </div> 
             </div>
-            <div className={styles.contact}></div>
+            <p>domingosrodrigues.dev@gmail.com</p>
           </address>
         </footer>
       </main>

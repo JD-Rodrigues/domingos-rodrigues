@@ -421,3 +421,7 @@ body {
   background-color: var(--light);
 }
 
+*{
+  scroll-behavior: smooth;
+}
+
