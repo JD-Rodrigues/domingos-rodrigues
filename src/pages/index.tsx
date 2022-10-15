@@ -3,7 +3,7 @@ import { IHomeProps, TProject } from '../types'
 import database from '../../public/database_projects'
 import styles from "./Home.module.css"
 import arrowDown from "../../public/images/logos/arrow-down.png"
-import cover from "../../public/images/backgrounds/workspace.jpg"
+import profilePic from "../../public/images/profile-pic.png"
 import Image from 'next/image'
 
 
@@ -44,6 +44,31 @@ const Home =  ({data}:IHomeProps) => {
               })}
               </ul>
             </nav>
+          </div>
+          <div className={`${styles.wave} ${styles.wave__main__color__descending } ${styles.background__section}`}>
+          </div>
+        </section>
+        <section className={`${styles.container} ${styles.section__about__me}`}>
+          <div className={styles.about__me__text}>
+              <h2 className={styles.about__me__title}>SOBRE MIM</h2>
+              <p>
+              Sou Domingos Rodrigues, um programador front-end baiano viciado em desenvolver soluções através de tecnologias. Sou movido e orientado por desafios.
+              </p>
+              <br />
+              <p>
+              Trabalho com construção de interfaces e aplicações para a web utilizando Javascript e ferramentas de seu ecossistema, prezando por um código limpo, performático e otimizado para os motores de busca.
+              </p>
+              <br />
+              <p>
+              Possuo habilidades de comunicação, aprendizado e compartilhamento de informações, adquiridas em minha anterior carreira, como professor. Isso me possibilita contribuir com os demais profissionais da equipe, reduzindo o tempo gasto para compreender detalhes sobre o processo de desenvolvimento.
+              </p>
+          </div>
+          <div className={styles.profile__pic__wrapper} >
+            <div className={styles.profile__pic}>
+              <Image src={profilePic} />
+            </div>
+          </div>
+          <div className={`${styles.wave} ${styles.wave__light__ascending } ${styles.background__section}`}>
           </div>
         </section>
       </main>

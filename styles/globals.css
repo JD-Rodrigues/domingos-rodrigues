@@ -408,12 +408,13 @@ template {
 
 
 body {
-  --dark: #009483;
+  --main: #009483;
   --dark-inactive:#005f5485;
   --darkest:#005f54;
-  --light: whitesmoke;
+  --light: #f5f5f5;
   --contrast: #E0C148;
 
   font-family: ModernSans;
+  color: var(--light);
 }
 
