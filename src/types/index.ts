@@ -6,7 +6,12 @@ export type TProject = {
   about:string;
   year: string;
   backdrop_path:string;
-  screenshots: string[];
+  demo:string;
+  screenshots: {
+    pc:string;
+    tablet:string;
+    smartphone:string[]
+  };
   objective:string;
   features:string[];
   tools:string[];

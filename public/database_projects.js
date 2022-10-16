@@ -6,10 +6,14 @@ const projects =  [
       "year":"2022",
       "backdrop_path":"",
       "about":"Aplicativo de rádios com as estações da franquia de games Grand Theft Auto.",
-      "screenshots":[
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/gta-radios-desktop.gif?raw=true",
-        "https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/screenshots/gta-radios-mobile.jpg"
-      ],
+      "demo":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/gta-radios-desktop.gif?raw=true",
+      "screenshots":{
+        pc:"",
+        tablet:"",
+        smartphone:[
+          "https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/screenshots/gta-radios-mobile.jpg"
+        ]
+      },
       "objective":"Projeto desenvolvido com o intuito de praticar o uso da biblioteca React na implementação de diversos players de audio personalizados, consumindo urls de transmissão de um servidor de rádios.",
       "features":[
         "Rádios segmentadas de diferentes títulos da franquia.",
@@ -30,12 +34,16 @@ const projects =  [
       "year":"2022",
       "backdrop_path":"",
       "about":"Catálogo de séries de TV.",
-      "screenshots":[
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/top-series-desktop.gif?raw=true",
-        "https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/screenshots/top-series-mobile-1.jpg",
-        "https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/screenshots/top-series-mobile-2.jpg",
-        "https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/screenshots/top-series-mobile-3.jpg.jpg"
-      ],
+      "demo":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/top-series-desktop.gif?raw=true",
+      "screenshots":{
+        pc:"",
+        tablet:"",
+        smartphone:[
+          "https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/screenshots/top-series-mobile-1.jpg",
+          "https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/screenshots/top-series-mobile-2.jpg",
+          "https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/screenshots/top-series-mobile-3.jpg.jpg"
+        ]
+      },
       "objective":"Projeto desenvolvido para praticar o consumode API utilizando React e Typescript.",
       "features":[
         "Lista as séries mais populares.",
@@ -59,15 +67,18 @@ const projects =  [
       "year":"2022",
       "backdrop_path":"",
       "about":"Aplicativo web de comanda digital para restaurantes e lanchonetes.",
-      "screenshots":[
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot.gif?raw=true",
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot.jpg?raw=true",
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot-5.jpg?raw=true",
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot-4.jpg?raw=true",
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot-6.jpg?raw=true",
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot-2.jpg?raw=true",
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot-3.jpg?raw=true"
-      ],
+      "demo":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot.gif?raw=true",
+      "screenshots":{
+        pc:"",
+        tablet:"",
+        smartphone:[        
+          "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot-5.jpg?raw=true",
+          "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot-4.jpg?raw=true",
+          "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot-6.jpg?raw=true",
+          "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot-2.jpg?raw=true",
+          "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot-3.jpg?raw=true"
+        ]
+      },
       "objective":"Facilitar o atendimento por parte de garçons, pessoal da cozinha e caixa, substituindo a comanda física e oferecendo funcionalidades que faltam em outras aplicações deste tipo.",
       "features":[
         "Cadastro de produtos no estoque",
@@ -89,11 +100,14 @@ const projects =  [
       "year":"2022",
       "backdrop_path":"",
       "about":"Aplicativo de controle financeiro feito em Javascript puro.",
-      "screenshots":[
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/controle-financeiro-demo.gif?raw=true",
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/controle-financeiro-tablet.png?raw=true",
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/controle-financeiro-celular.png?raw=true"
-      ],
+      "demo":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/controle-financeiro-demo.gif?raw=true",
+      "screenshots":{
+        pc:"",
+        tablet:"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/controle-financeiro-tablet.png?raw=true",
+        smartphone:[
+          "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/controle-financeiro-celular.png?raw=true"
+        ]
+      },
       "objective":"Praticar o desenvolvimento de lógica de negócios em Javascript puro.",
       "features":[
         "Cadastra transações de compra e venda, recebendo nome do produto, valor e tipo de transação.",
@@ -116,9 +130,12 @@ const projects =  [
       "year":"2022",
       "backdrop_path":"",
       "about":"Aplicativo que simula o envio de dinheiro para recebedores cadastrado em uma lista do usuário e simula a validação de cartões cadastrados.",
-      "screenshots":[
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/paytab-screen-demo.gif?raw=true",
-      ],
+      "demo":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/paytab-screen-demo.gif?raw=true",
+      "screenshots":{
+        pc:"",
+        tablet:"",
+        smartphone:[]
+      },
       "objective":"Praticar React ao consumir uma API que simula a validação de cartões realizada por um gateway de pagamentos.",
       "features":"",
       "tools":"",

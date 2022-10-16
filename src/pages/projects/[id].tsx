@@ -41,10 +41,12 @@ const Project =  ({project}:IProjectProps) => {
     </header>
     <main>
       <section className={styles.screenshots}>
-        <ul>
-          {project.screenshots.map((shot:string)=>{
+        <img className={styles.demo} src={project.demo} />
+        <ul className={styles.shotlist}>
+        {project.screenshots.tablet && <img className={styles.shot__tablet} src={project.screenshots.tablet} />}
+          {project.screenshots.smartphone.map((shot:string)=>{
             return(
-              <li key={shot}><Image src={shot} alt="" width={100} height={100} /></li>
+              <li className={styles.shot} key={shot}><img src={shot} /></li>
             )
           })}
         </ul>

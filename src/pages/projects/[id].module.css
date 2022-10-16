@@ -5,3 +5,36 @@
 .header {
   border: solid red;
 }
+
+.screenshots {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+.shotlist {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+  justify-content:center;
+}
+
+.demo {
+  width: auto;
+}
+
+.shot {
+  width: 250px;
+  display: flex;
+  border: black 1px solid;
+}
+
+.shot img{
+  width: 100%;
+}
+
