@@ -1,8 +1,8 @@
 .header {
   position: relative;
   width: 100%;
-  height: 100vh;
-  padding: 10px 20px;
+  min-height: 100vh;
+  padding: 30px 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,34 +15,34 @@
 
 .header nav {
   position: absolute;
-  top: 30px;
-  left: 40px;
+  top: 50px;
+  left: 50px;  
+}
+
+.back__home {
   padding: 5px;
   border-bottom: var(--light) solid;
   transition: .5s;
+  cursor: pointer;
 }
 
-.header nav:hover {
+.back__home:hover {
   border-bottom: var(--main) solid;
   background-color: var(--light);
   color: var(--main);
 }
 
-.back__home {
-  cursor: pointer;
-}
-
 .project__info {
   width: 100%;
   height: 100%;
-  padding: 50px 200px;
+  padding: 50px 15%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   row-gap: 20px;
   text-align: center;
-  background-color: var(--darkest-inactive);
+  background-color: rgba(0, 0, 0,.8);
 }
 
 .project__name {

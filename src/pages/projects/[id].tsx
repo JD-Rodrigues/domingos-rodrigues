@@ -29,7 +29,7 @@ const Project =  ({project}:IProjectProps) => {
     <div className={styles.project}>
       <header className={styles.header} style={{backgroundImage:`url("${project.backdrop_path}")`}}>
         <nav>
-        <Link href={"/"}><span className={styles.back__home}><div>⇽ Home</div></span></Link>
+          <Link href={"/"}><div className={styles.back__home}><span>⇽ Home</span></div></Link>
         </nav>
         <div className={styles.project__info}>
           <h1 className={styles.project__name}>{project.name}</h1>
