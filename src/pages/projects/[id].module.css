@@ -1,9 +1,86 @@
-.project {
-  color: black;
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  letter-spacing: 2px;
 }
 
-.header {
-  border: solid red;
+.header nav {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  padding: 5px;
+  border-bottom: var(--light) solid;
+  transition: .5s;
+}
+
+.header nav:hover {
+  border-bottom: var(--main) solid;
+  background-color: var(--light);
+  color: var(--main);
+}
+
+.back__home {
+  cursor: pointer;
+}
+
+.project__info {
+  width: 100%;
+  height: 100%;
+  padding: 50px 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  text-align: center;
+  background-color: var(--darkest-inactive);
+}
+
+.project__name {
+  text-transform:uppercase;
+  font-weight: normal;
+  font-size: 4vw;
+}
+
+.features__list {
+  list-style-type: disc;
+  text-align: justify;
+}
+
+.live {
+  padding: 10px;
+  text-decoration: none;
+  color: var(--light);
+  border: var(--light) solid;
+  transition: .5s;
+}
+
+.live:visited{
+  color: var(--light);
+}
+
+.live:hover {
+  border: var(--main) solid;
+  background-color: var(--light);
+  color: var(--main);
+}
+
+.go__next__section {
+  width: 60px;
+  height: 70px;
+  background-image: url("../../../public/images/logos/arrow-down.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .screenshots {

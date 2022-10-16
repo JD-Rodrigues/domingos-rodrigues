@@ -6,6 +6,7 @@ export type TProject = {
   about:string;
   year: string;
   backdrop_path:string;
+  live:string;
   demo:string;
   screenshots: {
     pc:string;

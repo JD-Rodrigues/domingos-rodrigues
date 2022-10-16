@@ -4,8 +4,9 @@ const projects =  [
       "logo":"https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/logos/gta-radios.png",
       "name":"GTA Radios",
       "year":"2022",
-      "backdrop_path":"",
+      "backdrop_path":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/backgrounds/gta-radios-backdrop.jpg?raw=true",
       "about":"Aplicativo de rádios com as estações da franquia de games Grand Theft Auto.",
+      "live":"https://gta-radios.vercel.app",
       "demo":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/gta-radios-desktop.gif?raw=true",
       "screenshots":{
         pc:"",
@@ -32,8 +33,9 @@ const projects =  [
       "logo":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/logos/top-series-logo.png?raw=true",
       "name":"Top Séries",
       "year":"2022",
-      "backdrop_path":"",
+      "backdrop_path":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/backgrounds/top-series-backdrop.jpg?raw=true",
       "about":"Catálogo de séries de TV.",
+      "live":"https://top-series.vercel.app",
       "demo":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/top-series-desktop.gif?raw=true",
       "screenshots":{
         pc:"",
@@ -65,8 +67,9 @@ const projects =  [
       "logo":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/logos/easy-comanda-logo.png?raw=true",
       "name":"Comanda Fácil",
       "year":"2022",
-      "backdrop_path":"",
+      "backdrop_path":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/backgrounds/easy-comanda-backdrop.jpg?raw=true",
       "about":"Aplicativo web de comanda digital para restaurantes e lanchonetes.",
+      "live":"https://comanda-facil.vercel.app",
       "demo":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot.gif?raw=true",
       "screenshots":{
         pc:"",
@@ -98,8 +101,9 @@ const projects =  [
       "logo":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/logos/controle-fianceiro-logo.png?raw=true",
       "name":"Controle Financeiro",
       "year":"2022",
-      "backdrop_path":"",
+      "backdrop_path":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/backgrounds/controle-financeiro-backdrop.jpg?raw=true",
       "about":"Aplicativo de controle financeiro feito em Javascript puro.",
+      "live":"https://jd-rodrigues.github.io/controle-financeiro",
       "demo":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/controle-financeiro-demo.gif?raw=true",
       "screenshots":{
         pc:"",
@@ -128,8 +132,9 @@ const projects =  [
       "logo":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/logos/paytab-logo.png?raw=true",
       "name":"Paytab",
       "year":"2022",
-      "backdrop_path":"",
+      "backdrop_path":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/backgrounds/paytab-backdrop.jpg?raw=true",
       "about":"Aplicativo que simula o envio de dinheiro para recebedores cadastrado em uma lista do usuário e simula a validação de cartões cadastrados.",
+      "live":"https://jd-rodrigues.github.io/paytab",
       "demo":"https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/paytab-screen-demo.gif?raw=true",
       "screenshots":{
         pc:"",
@@ -137,7 +142,7 @@ const projects =  [
         smartphone:[]
       },
       "objective":"Praticar React ao consumir uma API que simula a validação de cartões realizada por um gateway de pagamentos.",
-      "features":"",
+      "features":[],
       "tools":"",
       "aditional_info":""
     }
