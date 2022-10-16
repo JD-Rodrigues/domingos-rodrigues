@@ -4,6 +4,8 @@ export type TProject = {
   logo:string;
   name:string;
   about:string;
+  year: string;
+  backdrop_path:string;
   screenshots: string[];
   objective:string;
   features:string[];

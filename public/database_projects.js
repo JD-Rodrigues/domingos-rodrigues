@@ -7,7 +7,7 @@ const projects =  [
       "backdrop_path":"",
       "about":"Aplicativo de rádios com as estações da franquia de games Grand Theft Auto.",
       "screenshots":[
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/gta-radios-desktop.gif?raw=true",
+        
         "https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/screenshots/gta-radios-mobile.jpg"
       ],
       "objective":"Projeto desenvolvido com o intuito de praticar o uso da biblioteca React na implementação de diversos players de audio personalizados, consumindo urls de transmissão de um servidor de rádios.",
