@@ -3,10 +3,12 @@ const projects =  [
     { "id":"gta-radios",
       "logo":"https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/logos/gta-radios.png",
       "name":"GTA Radios",
+      "year":"2022",
+      "backdrop_path":"",
       "about":"Aplicativo de rádios com as estações da franquia de games Grand Theft Auto.",
       "screenshots":[
-        "images/screenshots/gta-radios-desktop.gif",
-        "images/screenshots/gta-radios-mobile.jpg"
+        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/gta-radios-desktop.gif?raw=true",
+        "https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/screenshots/gta-radios-mobile.jpg"
       ],
       "objective":"Projeto desenvolvido com o intuito de praticar o uso da biblioteca React na implementação de diversos players de audio personalizados, consumindo urls de transmissão de um servidor de rádios.",
       "features":[
@@ -25,14 +27,16 @@ const projects =  [
     { "id":"top-series",
       "logo":"https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/logos/top-series.png",
       "name":"Top Séries",
-      "about":"Catálogo com as últimas séries de TV.",
+      "year":"2022",
+      "backdrop_path":"",
+      "about":"Catálogo de séries de TV.",
       "screenshots":[
-        "images/screenshots/top-series-desktop.gif",
-        "images/screenshots/top-series-mobile-1.jpg",
-        "images/screenshots/top-series-mobile-2.jpg",
-        "images/screenshots/top-series-mobile-13.jpg"
+        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/top-series-desktop.gif",
+        "https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/screenshots/top-series-mobile-1.jpg",
+        "https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/screenshots/top-series-mobile-2.jpg",
+        "https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/screenshots/top-series-mobile-3.jpg.jpg"
       ],
-      "objective":"Projeto desenvolvito para praticar o consumode API utilizando React e Typescript.",
+      "objective":"Projeto desenvolvido para praticar o consumode API utilizando React e Typescript.",
       "features":[
         "Lista as séries mais populares.",
         "Lista as séries mais votadas.",
@@ -49,46 +53,71 @@ const projects =  [
       "aditional_info":""
     },
     {
-      "id":"easy-comanda",
+      "id":"comanda-facil",
       "logo":"",
-      "name":"Easy Comanda",
-      "about":"",
+      "name":"Comanda Fácil",
+      "year":"2022",
+      "backdrop_path":"",
+      "about":"Aplicativo web de comanda digital para restaurantes e lanchonetes.",
       "screenshots":[
         "",
         "",
         ""
       ],
-      "objective":"",
-      "features":"",
-      "tools":"",
-      "aditional_info":""
+      "objective":"Facilitar o atendimento por parte de garçons, pessoal da cozinha e caixa, substituindo a comanda física e oferecendo funcionalidades que faltam em outras aplicações deste tipo.",
+      "features":[
+        "Cadastro de produtos no estoque",
+        "Criação e fechamento de comandas",
+        "Adição e remoção de itens de comandas",
+        "Cálculo automático de valor gasto por comanda e por cada item nela.",
+      ],
+      "tools":[
+        "React",
+        "HTML",
+        "CSS"
+      ],
+      "aditional_info":"A aplicação atualmente é um MVP. Implementações adicionais serão feitas, dentre elas o compartilhamento das atividades e relatório em tempo real com um computador central e com o pessoal da cozinha, permitindo-os saber a ordem dos pedidos das comandas registradas por todos os garçons."
     },
     {
       "id":"controle-financeiro",
       "logo":"",
       "name":"Controle Financeiro",
-      "about":"",
+      "year":"2022",
+      "backdrop_path":"",
+      "about":"Aplicativo de controle financeiro feito em Javascript puro.",
       "screenshots":[
         "",
         "",
         ""
       ],
-      "objective":"",
-      "features":"",
-      "tools":"",
+      "objective":"Praticar o desenvolvimento de lógica de negócios em Javascript puro.",
+      "features":[
+        "Cadastra transações de compra e venda, recebendo nome do produto, valor e tipo de transação.",
+        "Mostra o relatório de transações cadastradas, indicando '-' para compra e '+' para venda.",
+        "Calcula despesa e receita, indicando total com a informação de lucro ou prejuízo.",
+        "Salva as informações no LocalStorage.",
+        "Responsivo para PC, tablet e celular."
+      ],
+      "tools":[
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
       "aditional_info":""
     },
     {
       "id":"paytab",
       "logo":"",
       "name":"Paytab",
-      "about":"",
+      "year":"2022",
+      "backdrop_path":"",
+      "about":"Aplicativo que simula o envio de dinheiro para recebedores cadastrado em uma lista do usuário e simula a validação de cartões cadastrados.",
       "screenshots":[
         "",
         "",
         ""
       ],
-      "objective":"",
+      "objective":"Praticar React ao consumir uma API que simula a validação de cartões realizada por um gateway de pagamentos.",
       "features":"",
       "tools":"",
       "aditional_info":""
