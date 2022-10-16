@@ -106,12 +106,17 @@
 }
 
 .shot {
-  width: 250px;
+  width: 300px;
+  height: auto;
   display: flex;
-  border: black 1px solid;
 }
 
 .shot img{
   width: 100%;
+  object-fit:cover;
+}
+
+.screenshots img {
+  border: solid black 1px;
 }
 
