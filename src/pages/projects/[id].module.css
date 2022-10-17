@@ -45,6 +45,7 @@
   text-align: center;
   background-color: rgba(0, 0, 0,.8);
   font-weight: normal;
+  border-radius: 5px;
 }
 
 .project__name {
@@ -111,6 +112,10 @@
   width: 300px;
   height: auto;
   display: flex;
+}
+
+.shot__tablet, .shot img {
+  border-radius: 5px;
 }
 
 .shot img{
