@@ -260,6 +260,11 @@
     border-top: var(--main) solid;
   }
 
+  .project__name {
+    border-bottom: var(--contrast) solid .2vw;
+    border-bottom-left-radius: 0.5vw;
+  }
+
   .section__about__me, .techs__text {
     line-height: 2vw;
   }
