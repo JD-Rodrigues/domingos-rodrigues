@@ -153,6 +153,15 @@
   .header {
     padding: 30px 20px;
   }
+
+  .header {
+    padding: 10px;
+  }
+
+  .header nav {
+    top: 20px;
+    left:20px;
+  }
 }
 
 @media (max-width:300px) {
