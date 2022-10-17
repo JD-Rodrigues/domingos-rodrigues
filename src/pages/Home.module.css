@@ -369,6 +369,10 @@
   .techs__list li {
     padding: 0px 5px;
   }
+
+  .section__networks {
+    height: 30vh;
+  }
 }
 
 @media (max-width:350px) {
