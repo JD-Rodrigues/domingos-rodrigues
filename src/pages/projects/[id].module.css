@@ -151,6 +151,7 @@
 
 @media (max-width:450px) {
   .header {
+    min-height: auto;
     padding: 10px 10px;
     align-items: flex-start;
     justify-content: flex-start;
