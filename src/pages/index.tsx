@@ -50,7 +50,7 @@ const Home =  ({data}:IHomeProps) => {
             
             <div className={`${styles.section__portfolio__bg__gradient} ${styles.container} ${styles.background__section}`}>
               <nav>
-                <h1 className={styles.title}>PORTFÓLIO</h1>
+                <h1 className={`${styles.title}`}>PORTFÓLIO</h1>
                 <ul className={styles.projects__list}>
                 { data && data.map((project:TProject)=>{
                   return(

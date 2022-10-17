@@ -423,6 +423,12 @@ body {
   background-color: var(--light);
 }
 
+@media (min-width:1366px) {
+  body {
+    font-size: 1.5vw;
+  }
+}
+
 @media (max-width:600px) {
   body {
     font-size: 18px;
