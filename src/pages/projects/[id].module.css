@@ -151,20 +151,24 @@
 
 @media (max-width:450px) {
   .header {
-    padding: 30px 20px;
+    padding: 10px 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 
-  .header {
+  /* .header {
     padding: 10px;
-  }
+  } */
 
   .header nav {
     top: 20px;
     left:20px;
   }
-}
 
-@media (max-width:300px) {
+  .screenshots {
+    padding: 15px;
+  }
+
   .shot {
     width:100%;
   }
