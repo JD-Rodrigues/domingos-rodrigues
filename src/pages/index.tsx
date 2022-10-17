@@ -28,23 +28,23 @@ const Home =  ({data}:IHomeProps) => {
 
   return (
     <div className={styles.home}>
-      <header id='top'>
-        <div className={`${styles.cover} ${styles.cover__image} ${styles.container} ${styles.background__section}`}>
-        </div>
+      <header id='top' className={`${styles.cover} ${styles.cover__image} ${styles.container} ${styles.background__section}`} >
         <div className={`${styles.cover} ${styles.cover__title} ${styles.container}`}>
           <div>
             <h1><span className={styles.first__name}>domingos</span>rodrigues</h1>
             <p className={styles.career}>DESENVOLVEDOR<span className={styles.speciality}>FRONT-END</span></p>
-          </div>          
-          <a href={"#portfolio__section"}><div className={styles.header__arrow__down}><Image alt='Clique aqui para ser direcionado para a próxima seção' src={arrowDown} /></div></a>
+          </div>     
+          <div className={styles.arrow__wrapper}>
+            <a className={styles.header__arrow__down} href={"#portfolio__section"}><Image alt='Clique aqui para ser direcionado para a próxima seção' src={arrowDown} /></a>  
+          </div>            
         </div>
       </header>
       <main>
-        <section className={`${styles.section__portfolio__bg__img} ${styles.container} ${styles.background__section}`} id="portfolio__section">
+        <section className={`${styles.section__portfolio__bg__img} ${styles.background__section}`} id="portfolio__section">
           
           <div className={`${styles.section__portfolio__bg__gradient} ${styles.container} ${styles.background__section}`}>
             <nav>
-              <h1>PORTFÓLIO</h1>
+              <h1 className={styles.title}>PORTFÓLIO</h1>
               <ul className={styles.projects__list}>
               { data && data.map((project:TProject)=>{
                 return(
@@ -79,7 +79,7 @@ const Home =  ({data}:IHomeProps) => {
           </div>
         </section>
         <section className={`${styles.container} ${styles.section__techs}`}>
-        <div className={`${styles.wave} ${styles.wave__main__ascending } ${styles.background__section}`}>
+          <div className={`${styles.wave} ${styles.wave__main__ascending } ${styles.background__section}`}>
           </div>
           <div className={styles.techs__text}>
             <h2 className={styles.title}>TECNOLOGIAS</h2>
@@ -99,7 +99,8 @@ const Home =  ({data}:IHomeProps) => {
             </ul>
           </div>
         </section>
-        <footer >
+      </main>
+      <footer >
           <address className={`${styles.container} ${styles.section__networks}`}>
             <h2 className={styles.title}>REDES E CONTATO</h2>
             <div className={styles.footer__logos__wrapper}>
@@ -120,8 +121,6 @@ const Home =  ({data}:IHomeProps) => {
           </address>
           <a href='#top' className="to__top"></a>
         </footer>
-      </main>
-      
     </div>
   )
 }
