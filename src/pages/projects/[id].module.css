@@ -1,3 +1,4 @@
+
 .header {
   position: relative;
   width: 100%;
@@ -43,6 +44,7 @@
   row-gap: 20px;
   text-align: center;
   background-color: rgba(0, 0, 0,.8);
+  font-weight: normal;
 }
 
 .project__name {
@@ -120,3 +122,41 @@
   border: solid black 1px;
 }
 
+.footer{
+  width: 100%;
+  padding: 20px;
+  background-color: var(--darkest);
+  text-align: center;
+}
+
+@media (max-width:800px) {
+  .project__info {
+    padding: 50px 10%;
+  }
+
+  .back__home {
+    padding: 2px;
+    border-bottom: solid 1px;
+    font-size: 14px;
+  }
+
+  .screenshots {
+    padding: 25px;
+  }
+
+  .demo {
+    width: 100%;
+  }
+}
+
+@media (max-width:450px) {
+  .header {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width:300px) {
+  .shot {
+    width:100%;
+  }
+}

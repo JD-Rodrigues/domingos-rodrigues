@@ -354,6 +354,10 @@
     font-size: 15px;
   }
 
+  .section__techs {
+    height: 75vh;
+  }
+
   .techs__text {
     text-align: center;
   }
