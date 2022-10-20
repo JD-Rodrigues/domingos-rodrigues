@@ -15,7 +15,7 @@
 <ul>
   <li>Contém uma página estática dedicada a cada projeto.</li>
   <li>Cada página de projeto inclui descrição, link para o projeto online, gif com demo do projeto e screenshots da aplicação em diferentes formatos de tela.</li>
-  <li>Resposividade.</li>
+  <li>Responsividade.</li>
 </ul>
 <h2>Tecnologias utilizadas:</h2>
 <ul>
