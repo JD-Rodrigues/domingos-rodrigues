@@ -110,18 +110,18 @@ const Home =  ({data}:IHomeProps) => {
             <address className={`${styles.container} ${styles.section__networks}`}>
               <h2 className={styles.title}>REDES E CONTATO</h2>
               <div className={styles.footer__logos__wrapper}>
-                <div className={styles.footer__logo}>
+                <a href='https://github.com/JD-Rodrigues' className={styles.footer__logo}>
                   <Image src={githubLogo} />
-                </div>
-                <div className={styles.footer__logo}>
+                </a>
+                <a href="www.linkedin.com/in/domingos-rodrigues-dev" className={styles.footer__logo}>
                   <Image src={linkedinLogo} />
-                </div>
-                <div className={styles.footer__logo}>
+                </a>
+                <a href="https://www.instagram.com/jdev_oficial/" className={styles.footer__logo}>
                   <Image src={instagramLogo} />
-                </div>
-                <div className={styles.footer__logo}>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5575998662804" className={styles.footer__logo}>
                   <Image src={whatsappLogo} />
-                </div> 
+                </a> 
               </div>
               <p>domingosrodrigues.dev@gmail.com</p>
             </address>
