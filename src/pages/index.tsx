@@ -113,7 +113,7 @@ const Home =  ({data}:IHomeProps) => {
                 <a href='https://github.com/JD-Rodrigues' className={styles.footer__logo}>
                   <Image src={githubLogo} />
                 </a>
-                <a href="www.linkedin.com/in/domingos-rodrigues-dev" className={styles.footer__logo}>
+                <a href="https://linkedin.com/in/domingos-rodrigues-dev" className={styles.footer__logo}>
                   <Image src={linkedinLogo} />
                 </a>
                 <a href="https://www.instagram.com/jdev_oficial/" className={styles.footer__logo}>
