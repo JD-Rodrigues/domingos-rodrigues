@@ -10,6 +10,7 @@ import instagramLogo from "../../public/images/logos/instagram-logo-thin.svg"
 import whatsappLogo from "../../public/images/logos/whatsapp-logo-thin.svg"
 import profilePic from "../../public/images/profile-pic.png"
 import  Head  from 'next/head'
+import { NextSeo } from 'next-seo'
 
 
 
@@ -29,10 +30,39 @@ const Home =  ({data}:IHomeProps) => {
 
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Domingos Rodrigues - Desenvolvedor Front-end</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-      </Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charSet='UTF-8' />
+        <meta name='description' content='Conheça meu trabalho - veja a coleção de projetos que tenho desenvolvido.' />
+      </Head> */}
+      <NextSeo 
+        title='Domingos Rodrigues - Desenvolvedor Front-end'
+        description='Conheça meu trabalho - veja a coleção de projetos que tenho desenvolvido.'
+        canonical='https://domingos-rodrigues.vercel.app/'
+        openGraph={{
+          locale: 'pt_BR',
+          siteName: 'Domingos Rodrigues',
+          url: 'https://domingos-rodrigues.vercel.app/',
+          title: 'Domingos Rodrigues - Desenvolvedor Front-end',
+          description: 'Conheça meu trabalho - veja a coleção de projetos que tenho desenvolvido.',
+          images: [
+            {
+              url: 'https://www.example.ie/og-image-01.jpg',
+              width: 800,
+              height: 600,
+              alt: 'Site do desenvolvedor web Domingos Rodrigues',
+              type: 'image/jpeg',
+            }
+          ]
+        }}
+  
+        twitter={{
+          handle: '@JDev_Oficial',
+          site: '@JDev_Oficial',
+          cardType: 'summary_large_image',
+        }}
+      />
       <div className={styles.home}>
         <header id='top' className={`${styles.cover} ${styles.cover__image} ${styles.container} ${styles.background__section}`} >
           <div className={`${styles.cover} ${styles.cover__title} ${styles.container}`}>

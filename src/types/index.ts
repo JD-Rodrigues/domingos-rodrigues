@@ -32,6 +32,14 @@ export interface IGetStaticProps {
   params: {id:string}
 }
 
+export interface ISEOProps {
+  title: string;
+  description: string;
+  pageType: string;
+  url: string;
+  urlImg: string;
+}
+
 
 
 

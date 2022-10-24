@@ -46,8 +46,8 @@ const Project =  ({project}:IProjectProps) => {
             <ul className={styles.features__list}>
               {project.features.map((feat:string)=><li key={feat}>{feat}</li>)}
             </ul>
-            <p>{`© ${project.year} Domingos Rodrigues`}</p>
             <a rel="noreferrer" target={"_blank"} className={styles.external__link} href={project.github}>Código no Github</a>
+            <p>{`© ${project.year} Domingos Rodrigues`}</p>
             <a href="#shots" ><div className={styles.go__next__section}></div></a>
           </div>
       </header>
