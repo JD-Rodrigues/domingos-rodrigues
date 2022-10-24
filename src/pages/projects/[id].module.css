@@ -60,7 +60,7 @@
   text-align: justify;
 }
 
-.live {
+.external__link {
   padding: 10px;
   text-decoration: none;
   color: var(--light);
@@ -68,11 +68,11 @@
   transition: .5s;
 }
 
-.live:visited{
+.external__link:visited{
   color: var(--light);
 }
 
-.live:hover {
+.external__link:hover {
   border: var(--main) solid;
   background-color: var(--light);
   color: var(--main);

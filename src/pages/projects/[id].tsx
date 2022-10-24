@@ -40,13 +40,14 @@ const Project =  ({project}:IProjectProps) => {
           </nav>
             <h1 className={styles.project__name}>{project.name}</h1>
             <p>{project.about}</p>
+            <a rel="noreferrer" target={"_blank"} className={styles.external__link} href={project.live}>Ver online</a>
             <p>{project.objective}</p>
             <p>FEATURES:</p>
             <ul className={styles.features__list}>
               {project.features.map((feat:string)=><li key={feat}>{feat}</li>)}
             </ul>
             <p>{`© ${project.year} Domingos Rodrigues`}</p>
-            <a rel="noreferrer" target={"_blank"} className={styles.live} href={project.live}>Ver online</a>
+            <a rel="noreferrer" target={"_blank"} className={styles.external__link} href={project.github}>Código no Github</a>
             <a href="#shots" ><div className={styles.go__next__section}></div></a>
           </div>
       </header>
