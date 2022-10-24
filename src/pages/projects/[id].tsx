@@ -29,7 +29,7 @@ const Project =  ({project}:IProjectProps) => {
   return(
     <>
       <Head>
-        <title>{project.name} - por Domingos Rodrigues</title>
+        <title>{`${project.name} - por Domingos Rodrigues`}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
       <div className={styles.project}>
