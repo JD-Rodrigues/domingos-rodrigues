@@ -48,7 +48,7 @@ const Home =  ({data}:IHomeProps) => {
           description: 'Conheça meu trabalho - veja a coleção de projetos que tenho desenvolvido.',
           images: [
             {
-              url: 'https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/social/site-cover.png?raw=true',
+              url: 'https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/social/site-cover.png',
               width: 800,
               height: 600,
               alt: 'Site do desenvolvedor web Domingos Rodrigues',
