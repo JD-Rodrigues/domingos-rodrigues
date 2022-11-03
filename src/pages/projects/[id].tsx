@@ -36,15 +36,15 @@ const Project =  ({project}:IProjectProps) => {
         openGraph={{
           locale: 'pt_BR', 
           siteName: `${project.name}`,
-          url: 'https://domingos-rodrigues.vercel.app/',
+          url: `${`https://domingos-rodrigues.vercel.app/${project.id}`}`,
           title: `${project.name}`,
-          description: 'Conheça meu trabalho - veja a coleção de projetos que tenho desenvolvido.',
+          description: `${project.about}`,
           images: [
             {
-              url: 'https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/social/site-cover.jpg?raw=true',
+              url: `${project.demo}`,
               width: 800,
               height: 600,
-              alt: 'Site do desenvolvedor web Domingos Rodrigues',
+              alt: `Projeto ${project.name}`,
               type: 'image/png',
             }
           ]
