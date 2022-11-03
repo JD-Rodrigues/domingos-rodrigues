@@ -35,7 +35,7 @@ const Project =  ({project}:IProjectProps) => {
         canonical= {`https://domingos-rodrigues.vercel.app/${project.id}`}
         openGraph={{
           locale: 'pt_BR', 
-          siteName: 'Domingos Rodrigues',
+          siteName: `${project.name}`,
           url: 'https://domingos-rodrigues.vercel.app/',
           title: 'Domingos Rodrigues - Desenvolvedor Front-end',
           description: 'Conheça meu trabalho - veja a coleção de projetos que tenho desenvolvido.',
