@@ -32,11 +32,11 @@ const Project =  ({project}:IProjectProps) => {
       <NextSeo 
         title={project.name}
         description={project.about}
-        canonical= {`https://domingos-rodrigues.vercel.app/`}
+        canonical= {`https://domingos-rodrigues.vercel.app/${project.id}`}
         openGraph={{
           locale: 'pt_BR', 
           siteName: `${project.name}`,
-          url: `${`https://domingos-rodrigues.vercel.app/`}`,
+          url: `${`https://domingos-rodrigues.vercel.app/${project.id}`}`,
           title: `${project.name}`,
           description: `${project.about}`,
           images: [
