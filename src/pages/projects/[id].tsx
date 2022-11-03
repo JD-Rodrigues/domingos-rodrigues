@@ -37,7 +37,7 @@ const Project =  ({project}:IProjectProps) => {
           locale: 'pt_BR', 
           siteName: `${project.name}`,
           url: 'https://domingos-rodrigues.vercel.app/',
-          title: 'Domingos Rodrigues - Desenvolvedor Front-end',
+          title: `${project.name}`,
           description: 'Conheça meu trabalho - veja a coleção de projetos que tenho desenvolvido.',
           images: [
             {
