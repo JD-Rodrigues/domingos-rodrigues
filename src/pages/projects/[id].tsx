@@ -4,6 +4,7 @@ import { IGetStaticProps, IProjectProps, TProject } from "../../types"
 import data from "../../../public/database_projects"
 import Link from "next/link"
 import Head from "next/head"
+import { NextSeo } from "next-seo"
 
 
 export const getStaticPaths = () => {
@@ -28,10 +29,33 @@ export const getStaticProps = ({ params }:IGetStaticProps) => {
 const Project =  ({project}:IProjectProps) => {
   return(
     <>
-      <Head>
-        <title>{`${project.name} - por Domingos Rodrigues`}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-      </Head>
+      <NextSeo 
+        title={project.name}
+        description={project.about}
+        canonical= {`https://domingos-rodrigues.vercel.app/${project.id}`}
+        openGraph={{
+          locale: 'pt_BR', 
+          siteName: 'Domingos Rodrigues',
+          url: 'https://domingos-rodrigues.vercel.app/',
+          title: 'Domingos Rodrigues - Desenvolvedor Front-end',
+          description: 'Conheça meu trabalho - veja a coleção de projetos que tenho desenvolvido.',
+          images: [
+            {
+              url: 'https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/social/site-cover.jpg?raw=true',
+              width: 800,
+              height: 600,
+              alt: 'Site do desenvolvedor web Domingos Rodrigues',
+              type: 'image/png',
+            }
+          ]
+        }}
+  
+        twitter={{
+          handle: '@JDev_Oficial',
+          site: '@JDev_Oficial',
+          cardType: 'summary_large_image',
+        }}
+      />
       <div className={styles.project}>
         <header className={styles.header} style={{backgroundImage:`url("${project.backdrop_path}")`}}>
           <div className={styles.project__info}>

@@ -29,19 +29,13 @@ export const getStaticProps = () => {
 const Home =  ({data}:IHomeProps) => {
 
   return (
-    <>
-      {/* <Head>
-        <title>Domingos Rodrigues - Desenvolvedor Front-end</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charSet='UTF-8' />
-        <meta name='description' content='Conheça meu trabalho - veja a coleção de projetos que tenho desenvolvido.' />
-      </Head> */}
+    <> 
       <NextSeo 
         title='Domingos Rodrigues - Desenvolvedor Front-end'
         description='Conheça meu trabalho - veja a coleção de projetos que tenho desenvolvido.'
         canonical='https://domingos-rodrigues.vercel.app/'
         openGraph={{
-          locale: 'pt_BR',
+          locale: 'pt_BR', 
           siteName: 'Domingos Rodrigues',
           url: 'https://domingos-rodrigues.vercel.app/',
           title: 'Domingos Rodrigues - Desenvolvedor Front-end',
