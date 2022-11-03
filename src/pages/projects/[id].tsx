@@ -41,7 +41,7 @@ const Project =  ({project}:IProjectProps) => {
           description: `${project.about}`,
           images: [
             {
-              url: `${project.demo}`,
+              url: `${project.screenshots.smartphone[0]}`,
               width: 800,
               height: 600,
               alt: `Projeto ${project.name}`,
