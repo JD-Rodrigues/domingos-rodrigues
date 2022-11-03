@@ -36,7 +36,7 @@ const Project =  ({project}:IProjectProps) => {
         openGraph={{
           locale: 'pt_BR', 
           siteName: `${project.name}`,
-          url: `${`https://domingos-rodrigues.vercel.app/${project.id}`}`,
+          url: `${`https://domingos-rodrigues.vercel.app/`}`,
           title: `${project.name}`,
           description: `${project.about}`,
           images: [
