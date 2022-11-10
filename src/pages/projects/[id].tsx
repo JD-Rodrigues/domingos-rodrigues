@@ -36,8 +36,9 @@ const Project =  ({project}:IProjectProps) => {
         openGraph={{
           locale: 'pt_BR', 
           siteName: `${project.name}`,
-          url: `${`https://domingos-rodrigues.vercel.app/gta-radios`}`,
+          url: `${`https://domingos-rodrigues.vercel.app`}`,
           title: `${project.name}`,
+          type: 'article',
           description: `${project.about}`,
           images: [
             {
