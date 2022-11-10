@@ -115,13 +115,13 @@
   display: flex;
 }
 
-.shot__tablet, .shot img {
-  border-radius: 5px;
-}
-
 .shot img{
   width: 100%;
   object-fit:cover;
+}
+
+.shot__tablet, .shot img {
+  border-radius: 5px;
 }
 
 .screenshots img {
