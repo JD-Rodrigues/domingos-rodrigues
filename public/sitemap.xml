@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://domingos-rodrigues.vercel.app</loc>
+        <loc>https://domingos-rodrigues.vercel.app/top-series</loc>
+        <loc>https://domingos-rodrigues.vercel.app/gta-radios</loc>
+        <loc>https://domingos-rodrigues.vercel.app/controle-financeiro</loc>
+        <loc>https://domingos-rodrigues.vercel.app/comanda-facil</loc>
+        <loc>https://domingos-rodrigues.vercel.app/paytab</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>
