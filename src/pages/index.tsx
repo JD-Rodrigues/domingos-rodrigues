@@ -99,7 +99,7 @@ const Home =  ({data}:IHomeProps) => {
                 </p>
                 <br />
                 <p>
-                Possuo habilidades de comunicação, aprendizado rápido e transmissão de informações, adquiridas em minha carreira anterior, como professor. Isso me possibilita contribuir com os demais profissionais, ajudando a compreender processos e o uso de tecnologias, reduzindo o tempo gasto com soluções que requerem técnicas ou abordagens utilizadas com pouca frequência pela equipe.
+                Possuo habilidades de comunicação, aprendizado rápido e transmissão de informações, adquiridas em minha carreira anterior, como professor. Além disso, tenho um perfil cooperador. Assim, sou capaz compreender instruções rapidamente e as colocar em prática, bem como dar suporte a colegas de equipe, ajudando-os a compreender tarefas, reduzindo o tempo das entregas.
                 </p>
             </div>
             <div className={styles.profile__pic__wrapper} >
