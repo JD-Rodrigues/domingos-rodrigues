@@ -1,6 +1,39 @@
 
 const projects = [
   { 
+    id: "d-trello",
+    logo: "https://raw.githubusercontent.com/JD-Rodrigues/d-trello/main/front-end/view/assets/images/logo-readme.png",
+    name: "d-Trello",
+    year: "2023",
+    backdrop_path: "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/backgrounds/gta-radios-backdrop.jpg?raw=true",
+    about: "d-Trello é um aplicativo de gerenciamento de projeto baseado na web e utiliza o paradigma Kanban de gerenciamento.",
+    live: "https://d-trello-front.onrender.com/",
+    github: "https://github.com/JD-Rodrigues/d-trello",
+    demo: "https://github.com/JD-Rodrigues/d-trello/blob/main/front-end/view/assets/images/screenshots/d-trello-desktop-demo.gif?raw=true",
+    screenshots: {
+      pc: "",
+      tablet: "https://raw.githubusercontent.com/JD-Rodrigues/d-trello/main/front-end/view/assets/images/screenshots/d-trello-tablet.png",
+      smartphone: [
+        "https://raw.githubusercontent.com/JD-Rodrigues/d-trello/main/front-end/view/assets/images/screenshots/d-trello-smartphone.png"
+      ]
+    },
+    objective: "Este aplicativo é resultado de minha busca por ser um profissional mais completo. Como desenvolvedor front-end, estive buscando dominar o essencial de back-end e dando passos iniciais em direção ao full-stack. Vi nesse tipo de aplicação uma oportunidade de ter um aprendizado prático e, ao mesmo tempo, desenvolver algo útil.",
+    features: [
+      "Login com conta Google.",
+      "Criação, edição e remoção de quadros e tarefas.",
+      "É possível arrastar e soltar quadros e tarefas, a fim de reordená-los, bem como passar tarefas de um quadro para outro.",
+      "Cada usuário tem seu próprio espaço; as atividades e conteúdos são persistidos e recuperados nos acessos posteriores.",
+      "Busca de tarefas."
+    ],
+    tools: [
+      "Html, CSS e Javascript - linguagens puras utilizadas na criação do front-end.",
+      "NodeJs - usado para o desenvolvimento do back-end com Javascript.",
+      "Express JS - utilizado na criação do servidor e da API.",
+      "MySQL - armazenamento de usuários, quadros e tarefas."
+    ],
+    aditional_info: ""
+  },
+  { 
     id: "gta-radios",
     logo: "https://raw.githubusercontent.com/JD-Rodrigues/domingos-rodrigues/main/public/images/logos/gta-radios.png",
     name: "GTA Radios",
@@ -65,41 +98,6 @@ const projects = [
       "API do banco de séries e filmes TMDB"
     ],
     aditional_info: ""
-  },
-  {
-    id: "comanda-facil",
-    logo: "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/logos/easy-comanda-logo.png?raw=true",
-    name: "Comanda Fácil",
-    year: "2022",
-    backdrop_path: "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/backgrounds/easy-comanda-backdrop.jpg?raw=true",
-    about: "Aplicativo web de comanda digital para restaurantes e lanchonetes.",
-    live: "https://comanda-facil.vercel.app",
-    github: "https://github.com/JD-Rodrigues/comanda-facil",
-    demo: "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot.gif?raw=true",
-    screenshots: {
-      pc: "",
-      tablet: "",
-      smartphone: [        
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot-5.jpg?raw=true",
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot-4.jpg?raw=true",
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot-6.jpg?raw=true",
-        "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot-2.jpg?raw=true",
-      "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/comanda-facil-screenshot-3.jpg?raw=true"
-      ]
-    },
-    objective: "Facilitar o atendimento por parte de garçons, pessoal da cozinha e caixa, substituindo a comanda física e oferecendo funcionalidades que faltam em outras aplicações deste tipo.",
-    features: [
-      "Cadastro de produtos no estoque",
-      "Criação e fechamento de comandas",
-      "Adição e remoção de itens de comandas",
-      "Cálculo automático de valor gasto por comanda e por cada item nela.",
-    ],
-    tools: [
-      "React",
-      "HTML",
-      "CSS"
-    ],
-    aditional_info: "A aplicação atualmente é um MVP. Implementações adicionais serão feitas, dentre elas o compartilhamento das atividades e relatório em tempo real com um computador central e com o pessoal da cozinha, permitindo-os saber a ordem dos pedidos das comandas registradas por todos os garçons."
   },
   {
     id: "controle-financeiro",
