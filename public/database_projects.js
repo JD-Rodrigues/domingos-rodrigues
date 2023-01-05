@@ -5,7 +5,7 @@ const projects = [
     logo: "https://raw.githubusercontent.com/JD-Rodrigues/d-trello/main/front-end/view/assets/images/logo-readme.png",
     name: "d-Trello",
     year: "2023",
-    backdrop_path: "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/backgrounds/gta-radios-backdrop.jpg?raw=true",
+    backdrop_path: "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/backgrounds/d-trello-backdrop.png?raw=true",
     about: "d-Trello é um aplicativo de gerenciamento de projeto baseado na web e utiliza o paradigma Kanban de gerenciamento.",
     live: "https://d-trello-front.onrender.com/",
     github: "https://github.com/JD-Rodrigues/d-trello",
