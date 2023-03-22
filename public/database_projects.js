@@ -1,6 +1,45 @@
 
 const projects = [
   { 
+    id: "kampler-store",
+    logo: "https://raw.githubusercontent.com/JD-Rodrigues/store-FFXI/main/Front-end/public/logo-readme.png",
+    name: "Kampler Store",
+    year: "2023",
+    backdrop_path: "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/backgrounds/kampler-store-back.png?raw=true",
+    about: "Kampler Store é um e-commerce de itens e serviços in-game do jogo Final Fantasy XI Online.",
+    live: "https://store-ffxi.vercel.app",
+    github: "https://github.com/JD-Rodrigues/store-FFXI",
+    demo: "https://github.com/JD-Rodrigues/store-FFXI/blob/main/Front-end/public/screenshots/kampler-store-demo-desktop.gif?raw=true",
+    screenshots: {
+      pc: "",
+      tablet: "",
+      smartphone: [
+        "https://raw.githubusercontent.com/JD-Rodrigues/store-FFXI/main/Front-end/public/screenshots/kampler-store-mobile-home.png",
+        "https://raw.githubusercontent.com/JD-Rodrigues/store-FFXI/main/Front-end/public/screenshots/kampler-store-mobile-menu.png",
+        "https://raw.githubusercontent.com/JD-Rodrigues/store-FFXI/main/Front-end/public/screenshots/kampler-store-mobile-item-description.png"
+      ]
+    },
+    objective: "A aplicação atenderá à demanda de um cliente.",
+    features: [
+      "Login com conta Google.",
+      "Painel de gerenciamento de conteúdo.",
+      "O usuário pode adicionar e remover itens do carrinho, bem como alterar a quantidade.",
+      "Itens adicionados ao carrinho permanecem salvos para as futuras sessões, até a compra ser efetivada ou serem removidos pelo usuário.",
+      "Busca de tarefas."
+    ],
+    tools: [
+      "React - biblioteca Javascript utilizada na componentização da interface.",
+      "NextJs - framework do React utilizado na geração de páginas estáticas para o conteúdo.",
+      "Sass - pré-processador utilizado para otimizar a escrita de CSS tornando o código mais reutilizável, bem como e organizar as folhas de estilo.",
+      "NodeJs - usado para o desenvolvimento do back-end com Javascript.",
+      "Express JS - utilizado na criação do servidor e da API.",
+      "MongoDB Atlas - serviço de banco de baserado em nuvem",
+      "Prismic CMS - gerenciador de conteúdo headless",
+      ""
+    ],
+    aditional_info: "O parte back-end relacionada ao login de usuários está hospedada em um serviço gratuito, que hiberna após certo tempo sem uso. Por isso, ao realizar o login pela primeira vez, pode acontecer de demorar até 15 segundos."
+  },
+  { 
     id: "d-trello",
     logo: "https://raw.githubusercontent.com/JD-Rodrigues/d-trello/main/front-end/view/assets/images/logo-readme.png",
     name: "d-Trello",
@@ -130,27 +169,7 @@ const projects = [
       "Javascript"
     ],
     aditional_info: ""
-  },
-  {
-    id: "paytab",
-    logo: "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/logos/paytab-logo.png?raw=true",
-    name: "Paytab",
-    year: "2022",
-    backdrop_path: "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/backgrounds/paytab-backdrop.jpg?raw=true",
-    about: "Aplicativo que simula o envio de dinheiro para recebedores cadastrado em uma lista do usuário e simula a validação de cartões cadastrados.",
-    live: "https://jd-rodrigues.github.io/paytab",
-    github: "https://github.com/JD-Rodrigues/paytab",
-    demo: "https://github.com/JD-Rodrigues/domingos-rodrigues/blob/main/public/images/screenshots/paytab-screen-demo.gif?raw=true",
-    screenshots: {
-      pc: "",
-      tablet: "",
-      smartphone: []
-    },
-    objective: "Praticar React ao consumir uma API que simula a validação de cartões realizada por um gateway de pagamentos.",
-    features: [],
-    tools: "",
-    aditional_info: ""
-    }
+  }
   ]
 
 
